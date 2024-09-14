@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        
+        position: relative;
+    }
+    h2,h3{
+        position: absolute;
+    }
+    .data{
+        background-color: #587DA1;
+        
+    }
+    .name{
+        background-color: #6396EE;
+    }
+    div{
+        background-color: #D7A41E;
+        padding: 40px 0px 20px 10px;
+        
+    }
+    
+</style>
+<body>
+    
+    <form>
+      <fieldset style="border: none;background-color: #A52A2D; width: 1000px; padding: 20px;margin: 60px;">
+        <legend class="data">Personal Data </legend>
+        <fieldset style="background-color: #D7A41E; padding-top:30px;">
+        <legend class="name">Your Name</legend>
+        
+        <label for="fname">First name &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last name &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" id="lname" name="lname">
+        
+       </fieldset>
+<br>
+<br>
+<br>
+<br>
+
+
+        <label for="phone">your phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="email" id="email" name="phone"><br><br>
+
+        <label for="pass">Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="password" id="pass" name="pass"><br><br>
+
+        <label for="re-pass"> Re-password &nbsp;&nbsp;:</label>
+        <input type="password" id="re-pass" name="er-pass">
+        <br>
+        <br>
+        <br>
+        <br>
+        
+       
+        <input type="radio" id="male" name="gen" value="1">
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="gen" value="0">
+        <label for="female">female</label>
+        <br>
+        <br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Student </label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Graduated</label><br>
+
+        <br>
+        <br>
+
+        <label for="option">Choose a option:</label>
+        <select name="option" id="option">
+          <option disabled selected> -- select an option -- </option>
+          <optgroup label="Group.1">
+            <option value="option.1.1">option.1.1</option>
+            <option value="option.1.2">option.1.2</option>
+          </optgroup>
+          <optgroup label="Group.2">
+            <option value="option.2.1">option.2.1</option>
+            <option value="option.2.2">option.2.2</option>
+          </optgroup>
+          <optgroup label="Group.3">
+            <option value="option.3.1">option.3.1</option>
+            <option value="option.3.2">option.3.2</option>
+            <option value="option.3.3">option.3.3</option>
+            <option value="option.3.4">option.3.4</option>
+            <option value="option.3.5">option.3.5</option>
+            <option value="option.3.6">option.3.6</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+
+      </fieldset>
+
+      </form>
+</body>
+</html>
